@@ -13,7 +13,7 @@ main {
 
 .box {
   width: clamp(200px, 20vw, 300px);
-  height: 200px;
+  height: 100px;
   border: 3px solid black;
   display: flex;
   align-items: center;
