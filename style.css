@@ -12,7 +12,7 @@ main {
 }
 
 .box {
-  width: clamp(200px, 20vw, 300px);
+  width: clamp(100px, 20vw, 300px);
   height: 200px;
   border: 3px solid black;
   display: flex;
