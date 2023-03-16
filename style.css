@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3vw;
+  padding: 3vw 3vw;
+}
+
+.box {
+  width: clamp(200px, 20vw, 300px);
+  height: 200px;
+  border: 3px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box p {
+  font-size: 2vw;
+  font-weight: 700;
+}
+
+.box1 {
+  background: red;
+}
+
+.box2 {
+  background: blue;
+}
+
+.box3 {
+  background: green;
+}
+
+.box4 {
+  background: purple;
+}
+
+.box5 {
+  background: salmon;
+}
+
+.box6 {
+  background: teal;
+}
+
+.box7 {
+  background: orange;
+}
+
+.box8 {
+  background: pink;
+}
